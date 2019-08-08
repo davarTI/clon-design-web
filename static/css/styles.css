@@ -1,0 +1,229 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  top: 10%;
+  width: 100%;
+}
+
+#home-jumbotron {
+  background: green;
+  background-image: url("https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.jumbotron-description {
+  z-index: 9;
+}
+
+.jumbotron-description h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.custom-button {
+  padding: 1rem 3rem;
+  border: solid 2px;
+}
+
+.custom-button.light {
+  color: white;
+  border-color: white;
+}
+
+.custom-button.dark {
+  color: black;
+  border-color: black;
+}
+
+#home-intro {
+  margin-top: -60px;
+  position: relative;
+}
+
+.salmon-gradient {
+  padding: 4rem;
+  background: -webkit-gradient(linear, left top, right top, from(salmon), to(#E91E63));
+  background: linear-gradient(to right, salmon, #E91E63);
+}
+
+.Ecolor-text {
+  color: rgba(245, 245, 245, 0.5);
+}
+
+.Esize {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.Esize2 {
+  font-size: 1.2rem;
+  line-height: 3rem;
+  color: rgba(245, 245, 245, 0.7);
+}
+
+.Elinea {
+  border-right: 1px solid;
+  border-color: rgba(86, 86, 86, 0.3);
+  min-height: 100px;
+}
+
+.Ecolor-text2 {
+  color: #AAAAAA;
+  font-size: .8rem;
+}
+
+.Emargin {
+  margin-bottom: 30rem;
+}
+
+.triangle {
+  border-left: 97vw solid transparent;
+  border-bottom: 8vw solid #f7f7f7;
+}
+
+.comments {
+  background-color: #f7f7f7;
+  color: #575757;
+}
+
+.support-div {
+  padding: 50px 10px 50px 10px;
+}
+
+.thoughts {
+  font-weight: 700;
+  margin: 10 0 20;
+  font-size: 15px;
+  color: rgba(10, 10, 10, 0.4);
+}
+
+.what {
+  font-size: 34px;
+  color: black;
+  margin: 20px 0px 50px 0px;
+  font-weight: 700;
+}
+
+.support-h6 {
+  color: black;
+  font-weight: 700;
+}
+
+.div-image1, .div-image2 {
+  margin-top: 2rem;
+}
+
+.div-image3 {
+  margin-bottom: 2rem;
+}
+
+.border {
+  background-color: white;
+  border: none;
+}
+
+.container-clients {
+  padding: 100px;
+  border-top: 1px solid;
+  border-color: #f0f0f0;
+}
+
+#border {
+  border: none;
+}
+
+.blog {
+  color: #575757;
+}
+
+.image {
+  border-radius: 50%;
+  margin: 0 14.5px 0 0;
+  width: 60px;
+}
+
+.size-image {
+  width: 370px;
+  height: 200px;
+}
+
+.news {
+  font-weight: 700;
+  margin: 10 0 20;
+  font-size: 15px;
+  color: rgba(10, 10, 10, 0.4);
+}
+
+.latest-articles {
+  font-size: 34px;
+  color: black;
+  margin: 20px 0px 50px 0px;
+  font-weight: 700;
+}
+
+.button-read {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: #d6292f;
+  font-size: 12px;
+  border: none;
+  border-radius: 2%;
+  margin-top: -40px;
+  margin-left: -10px;
+}
+
+#label1 {
+  font-size: 11px;
+  margin: 10px 0px 0px;
+  text-align: left;
+  min-width: auto;
+}
+
+.special-span {
+  color: black;
+  font-weight: 500;
+}
+
+.special-h5 {
+  color: black;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.Eicono {
+  font-size: 4rem;
+}
+
+.Eicono p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.EsizePenultimo {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.bgPenultimo {
+  background-color: #f8f8f8;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.bgUltimo {
+  background: black;
+}
+/*# sourceMappingURL=styles.css.map */

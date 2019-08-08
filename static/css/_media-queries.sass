@@ -1,0 +1,17 @@
+$sm: 576px
+$md: 768px
+$lg: 992px
+$xlg: 1200px
+
+=from($value)
+    @media (min-width: $value+'px')
+        @content
+=md
+    @media (min-width: $md)
+        @content
+=lg
+    @media (min-width: $lg)
+        @content
+=xlg
+    @media (min-width: $xlg)
+        @content
