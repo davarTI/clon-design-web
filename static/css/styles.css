@@ -251,4 +251,11 @@ header {
 .EcolorUltimo {
   color: #AAAAAA;
 }
+
+#fondoContact {
+  background-image: url("https://demos.hogash.com/agency-html/images/hero_04.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*# sourceMappingURL=styles.css.map */
