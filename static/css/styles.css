@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -8,7 +9,6 @@ header {
 }
 
 #home-jumbotron {
-  background: green;
   background-image: url("https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ header {
 }
 
 .jumbotron-description {
-  z-index: 9;
+  z-index: 1;
 }
 
 .jumbotron-description h1 {
@@ -85,11 +85,11 @@ header {
 }
 
 .Emargin {
-  margin-bottom: 30rem;
+  margin-bottom: 7rem;
 }
 
 .triangle {
-  border-left: 97vw solid transparent;
+  border-left: 100vw solid transparent;
   border-bottom: 8vw solid #f7f7f7;
 }
 
