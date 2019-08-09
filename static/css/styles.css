@@ -9,10 +9,11 @@ header {
 }
 
 #home-jumbotron {
-  background-image: url("https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url(https://demos.hogash.com/agency-html/images/slide01.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 110vh;
 }
 
 .overlay {
@@ -206,7 +207,7 @@ header {
 }
 
 .bg-negro {
-  background: black;
+  background: #141414;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
@@ -245,11 +246,12 @@ header {
 }
 
 .bgUltimo {
-  background: #000;
+  background-color: #141414;
+  color: #575757;
 }
 
 .bgUltimo2 {
-  background: #101010;
+  background-color: #1a1a1a;
 }
 
 .EsizeUltimo {
