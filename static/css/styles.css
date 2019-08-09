@@ -203,11 +203,30 @@ header {
   line-height: 23px;
 }
 
-.Eicono {
-  font-size: 4rem;
+.bg-negro {
+  background: black;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
-.Eicono p {
+.Eicono {
+  font-size: 3.2rem;
+}
+
+.h-negro {
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.h-negro2 {
+  font-size: 2.2rem;
+}
+
+.p1 {
+  font-size: 1rem;
+}
+
+.p2 {
   font-size: 1rem;
   line-height: 2rem;
 }
