@@ -21,7 +21,7 @@ header {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .jumbotron-description {
@@ -369,5 +369,40 @@ header {
   border: 2px solid black;
   border-radius: 0;
   font-size: .9rem;
+}
+
+#work {
+  background-image: url("https://demos.hogash.com/agency-html/images/hero_03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.work {
+  padding-top: 12rem;
+  padding-bottom: 3rem;
+  position: relative;
+  z-index: 20;
+  background-color: white;
+  margin-top: -50px;
+  -webkit-clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%);
+}
+
+.button-slide {
+  color: #0a0a0a;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.button-slide li:hover {
+  color: #adadad;
+}
+
+#art,
+#branding,
+#web-design,
+#illustration {
+  display: none;
 }
 /*# sourceMappingURL=styles.css.map */
