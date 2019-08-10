@@ -20,7 +20,7 @@ function changePictures(option){
             slider.style.display = 'none';
             art.style.display = 'none';
             illustration.style.display = 'none';
-            web.style.style.display = 'none';
+            web.style.display = 'none';
             break;
         case 3:
             illustration.style.display = 'block';
